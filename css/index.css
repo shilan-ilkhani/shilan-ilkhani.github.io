@@ -1,12 +1,33 @@
-@media all and (max-width:575px) {
-    .cmargin {
+.custom {
+    position: relative;
+}
 
-    }
+h5 {
+    position: absolute;
+    top: 70%;
+}
+
+p {
+    position: absolute;
+    top: 80%;
+}
+
+.custom-span {
+    position: absolute;
+    top: 5%;
+    left: 15px;
+    background-color: #0c7bf9;
+    width: 40px;
+}
+
+@media all and (max-width:575px) {
 }
 
 @media all and (min-width:576px) and (max-width:767px) {}
 
-@media all and (min-width:768px) and (max-width:991px) {}
+@media all and (min-width:768px) and (max-width:991px) {
+
+}
 
 @media all and (min-width:992px) and (max-width:1199px) {}
 
