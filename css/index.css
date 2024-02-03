@@ -1,3 +1,48 @@
+
+a {
+    font-size: calc(0.6vw + 4px);
+    /* overflow: hidden; */
+}
+
+button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 88%;
+    width: 80px;
+    height: 33px;
+    background-color: black;
+    border: none;
+    transition: all 300ms linear 0s;
+    visibility: hidden;
+}
+
+.custom:hover button{
+    top: 77%;
+    visibility: visible;
+}
+
+.custom {
+    /* transition: all 200ms linear 0s; */
+    overflow: hidden;
+}
+
+img {
+    transition: all 200ms linear 0s;
+  }
+
+.custom:hover img{
+    transform: scale(1.10);
+}
+
+/* img {
+    transition: all 200ms linear 0s;
+  }
+
+a:hover img {
+    transform: scale(1.15);
+} */
+
 .custom {
     position: relative;
 }
@@ -5,11 +50,19 @@
 h5 {
     position: absolute;
     top: 70%;
+    font-size: calc(0.8vw + 4px);
+
 }
 
 p {
     position: absolute;
     top: 80%;
+    transition: all 300ms linear 0s;
+}
+
+.custom:hover p {
+    top: 75%;
+    visibility: hidden;
 }
 
 .custom-span {
@@ -26,7 +79,7 @@ p {
 @media all and (min-width:576px) and (max-width:767px) {}
 
 @media all and (min-width:768px) and (max-width:991px) {
-
+    
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {}
