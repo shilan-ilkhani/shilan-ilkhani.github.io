@@ -1,75 +1,5 @@
 
-a {
-    font-size: calc(0.6vw + 4px);
-    /* overflow: hidden; */
-}
 
-button {
-    position: absolute;
-    top: 88%;
-    width: 90px;
-    height: 40px;
-    background-color: black;
-    border: none;
-    transition: all 300ms linear 0s;
-    visibility: hidden;
-}
-
-.custom:hover button{
-    top: 77%;
-    visibility: visible;
-}
-
-.custom {
-    /* transition: all 200ms linear 0s; */
-    overflow: hidden;
-}
-
-img {
-    transition: all 200ms linear 0s;
-  }
-
-.custom:hover img{
-    transform: scale(1.10);
-}
-
-/* img {
-    transition: all 200ms linear 0s;
-  }
-
-a:hover img {
-    transform: scale(1.15);
-} */
-
-.custom {
-    position: relative;
-}
-
-h5 {
-    position: absolute;
-    top: 70%;
-    font-size: calc(0.8vw + 4px);
-
-}
-
-p {
-    position: absolute;
-    top: 80%;
-    transition: all 300ms linear 0s;
-}
-
-.custom:hover p {
-    top: 75%;
-    visibility: hidden;
-}
-
-.custom-span {
-    position: absolute;
-    top: 5%;
-    left: 15px;
-    background-color: #0c7bf9;
-    width: 40px;
-}
 
 @media all and (max-width:575px) {
     /* .custom-vis {
@@ -78,6 +8,29 @@ p {
     .custom-invis {
         visibility: visible;
     } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+
+    .custom {
+        position: relative;
+    }
+
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+        .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
+
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
@@ -87,6 +40,28 @@ p {
     .custom-invis {
         visibility: visible;
     } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+
+    .custom {
+        position: relative;
+    }
+
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+        .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -95,6 +70,83 @@ p {
     }
     .custom-invis {
         visibility: hidden;
+    } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+    
+    button {
+        position: absolute;
+        top: 88%;
+        width: 90px;
+        height: 40px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        background-color: black;
+        border: none;
+        transition: all 300ms linear 0s;
+        visibility: hidden;
+    }
+    
+    .custom:hover button{
+        top: 83%;
+        visibility: visible;
+    }
+    
+    .custom {
+        /* transition: all 200ms linear 0s; */
+        overflow: hidden;
+    }
+    
+    img {
+        transition: all 200ms linear 0s;
+      }
+    
+    .custom:hover img{
+        transform: scale(1.10);
+    }
+    
+    /* img {
+        transition: all 200ms linear 0s;
+      }
+    
+    a:hover img {
+        transform: scale(1.15);
+    } */
+    
+    .custom {
+        position: relative;
+    }
+    
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+    
+    p {
+        position: absolute;
+        top: 80%;
+        transition: all 300ms linear 0s;
+    }
+    
+    .custom:hover p {
+        top: 75%;
+        visibility: hidden;
+    }
+    
+    .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
+    
+    /* .custom-b {
+        font-size: calc(0.9vw + 4px);
     } */
 }
 
@@ -105,6 +157,83 @@ p {
     .custom-invis {
         visibility: hidden;
     } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+    
+    button {
+        position: absolute;
+        top: 88%;
+        width: 90px;
+        height: 40px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        background-color: black;
+        border: none;
+        transition: all 300ms linear 0s;
+        visibility: hidden;
+    }
+    
+    .custom:hover button{
+        top: 83%;
+        visibility: visible;
+    }
+    
+    .custom {
+        /* transition: all 200ms linear 0s; */
+        overflow: hidden;
+    }
+    
+    img {
+        transition: all 200ms linear 0s;
+      }
+    
+    .custom:hover img{
+        transform: scale(1.10);
+    }
+    
+    /* img {
+        transition: all 200ms linear 0s;
+      }
+    
+    a:hover img {
+        transform: scale(1.15);
+    } */
+    
+    .custom {
+        position: relative;
+    }
+    
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+    
+    p {
+        position: absolute;
+        top: 80%;
+        transition: all 300ms linear 0s;
+    }
+    
+    .custom:hover p {
+        top: 75%;
+        visibility: hidden;
+    }
+    
+    .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
+    
+    /* .custom-b {
+        font-size: calc(0.9vw + 4px);
+    } */
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
@@ -114,6 +243,83 @@ p {
     .custom-invis {
         visibility: hidden;
     } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+    
+    button {
+        position: absolute;
+        top: 88%;
+        width: 90px;
+        height: 40px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        background-color: black;
+        border: none;
+        transition: all 300ms linear 0s;
+        visibility: hidden;
+    }
+    
+    .custom:hover button{
+        top: 83%;
+        visibility: visible;
+    }
+    
+    .custom {
+        /* transition: all 200ms linear 0s; */
+        overflow: hidden;
+    }
+    
+    img {
+        transition: all 200ms linear 0s;
+      }
+    
+    .custom:hover img{
+        transform: scale(1.10);
+    }
+    
+    /* img {
+        transition: all 200ms linear 0s;
+      }
+    
+    a:hover img {
+        transform: scale(1.15);
+    } */
+    
+    .custom {
+        position: relative;
+    }
+    
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+    
+    p {
+        position: absolute;
+        top: 80%;
+        transition: all 300ms linear 0s;
+    }
+    
+    .custom:hover p {
+        top: 75%;
+        visibility: hidden;
+    }
+    
+    .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
+    
+    /* .custom-b {
+        font-size: calc(0.9vw + 4px);
+    } */
 }
 
 @media all and (min-width:1400px) {
@@ -122,5 +328,82 @@ p {
     }
     .custom-invis {
         visibility: hidden;
+    } */
+    a {
+        font-size: calc(0.6vw + 4px);
+        /* overflow: hidden; */
+    }
+    
+    button {
+        position: absolute;
+        top: 88%;
+        width: 90px;
+        height: 40px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        background-color: black;
+        border: none;
+        transition: all 300ms linear 0s;
+        visibility: hidden;
+    }
+    
+    .custom:hover button{
+        top: 83%;
+        visibility: visible;
+    }
+    
+    .custom {
+        /* transition: all 200ms linear 0s; */
+        overflow: hidden;
+    }
+    
+    img {
+        transition: all 200ms linear 0s;
+      }
+    
+    .custom:hover img{
+        transform: scale(1.10);
+    }
+    
+    /* img {
+        transition: all 200ms linear 0s;
+      }
+    
+    a:hover img {
+        transform: scale(1.15);
+    } */
+    
+    .custom {
+        position: relative;
+    }
+    
+    h5 {
+        position: absolute;
+        top: 70%;
+        font-size: calc(0.8vw + 4px);
+    
+    }
+    
+    p {
+        position: absolute;
+        top: 80%;
+        transition: all 300ms linear 0s;
+    }
+    
+    .custom:hover p {
+        top: 75%;
+        visibility: hidden;
+    }
+    
+    .custom-span {
+        position: absolute;
+        top: 5%;
+        left: 15px;
+        background-color: #0c7bf9;
+        width: 40px;
+    }
+    
+    /* .custom-b {
+        font-size: calc(0.9vw + 4px);
     } */
 }
