@@ -35,13 +35,13 @@
         position: absolute;
         top: 55%;
         left: 23%;
-        font-size: calc(0.8vw + 7px);
+        font-size: calc(0.8vw + 5px);
     }
 
     .custom-hh {
         position: absolute;
         top: 45%;
-        left: 18%;
+        left: 20%;
         font-size: calc(0.8vw + 8px);
     }
 
@@ -74,7 +74,9 @@
         right: 35%;
         background-color: #0c7bf9;
         width: 45px;
-        height: 25px;
+        line-height: 25px;
+        height: 30px;
+        font-weight: 700;
     }
 
     .custom-pp {
@@ -88,7 +90,7 @@
         position: absolute;
         top: 45%;
         left: 20%;
-        font-size: calc(0.8vw + 10px);
+        font-size: calc(1vw + 10px);
     }
 }
 
@@ -106,9 +108,9 @@
     
     button {
         position: absolute;
-        top: 88%;
-        width: 90px;
-        height: 40px;
+        top: 92%;
+        width: 75px;
+        height: 25px;
         transform: translate(-50%,-50%);
         left: 50%;
         background-color: black;
@@ -118,7 +120,7 @@
     }
     
     .custom:hover button{
-        top: 83%;
+        top: 87%;
         visibility: visible;
     }
     
@@ -192,9 +194,9 @@
     
     button {
         position: absolute;
-        top: 88%;
-        width: 90px;
-        height: 40px;
+        top: 90%;
+        width: 80px;
+        height: 30px;
         transform: translate(-50%,-50%);
         left: 50%;
         background-color: black;
@@ -204,7 +206,7 @@
     }
     
     .custom:hover button{
-        top: 83%;
+        top: 85%;
         visibility: visible;
     }
     
@@ -278,7 +280,7 @@
     
     button {
         position: absolute;
-        top: 88%;
+        top: 90%;
         width: 90px;
         height: 40px;
         transform: translate(-50%,-50%);
@@ -290,7 +292,7 @@
     }
     
     .custom:hover button{
-        top: 83%;
+        top: 85%;
         visibility: visible;
     }
     
@@ -342,7 +344,7 @@
         top: 5%;
         left: 15px;
         background-color: #0c7bf9;
-        width: 40px;
+        width: 45px;
     }
     
     /* .custom-b {
@@ -364,7 +366,7 @@
     
     button {
         position: absolute;
-        top: 88%;
+        top: 90%;
         width: 90px;
         height: 40px;
         transform: translate(-50%,-50%);
@@ -376,7 +378,7 @@
     }
     
     .custom:hover button{
-        top: 83%;
+        top: 85%;
         visibility: visible;
     }
     
@@ -428,7 +430,7 @@
         top: 5%;
         left: 15px;
         background-color: #0c7bf9;
-        width: 40px;
+        width: 55px;
     }
     
     /* .custom-b {
