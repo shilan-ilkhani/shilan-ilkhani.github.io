@@ -1,0 +1,126 @@
+@media all and (max-width:575px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 7px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 327px;
+    width: 327px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 327px;
+    width: 327px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
+@media all and (min-width:1400px) {
+    /* ------------------------------------------------------------- */
+
+.info {
+    height: 950px;
+    background: linear-gradient(90deg, rgba(121,9,41,1) 31%, rgba(1,26,31,1) 100%);
+}
+
+.image {
+    height: 327px;
+    width: 327px;
+    border: 2px solid white;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    border-radius: 50%;
+    background-image: url("../images/1.jpg");
+}
+
+/* ------------------------------------------------------------ */
+}
+
