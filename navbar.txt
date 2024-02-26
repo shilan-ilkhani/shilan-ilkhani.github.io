@@ -32,64 +32,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row px-3">
-
-                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                    <div class="bg-dark p-4">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3 pt-5 ps-lg-0 pt-lg-0 position-relative">
-                            <li class="nav-item nav-hover">
-                              <a class="nav-link ps-2 ps-lg-0 a-custom" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item nav-hover">
-                              <a class="nav-link ps-2 ps-lg-0 a-custom" href="#">Work</a>
-                            </li>
-                            <li class="nav-item nav-hover">
-                              <a class="nav-link ps-2 ps-lg-0 a-custom" href="#">Service</a>
-                            </li>
-                            <li class="nav-item nav-hover dropdown">
-                              <a class="nav-link ps-2 ps-lg-0 a-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog +
-                              </a>
-                              <ul class="dropdown-menu nav-blog">
-                                <li><a class="dropdown-item" href="#">Blog</a></li>
-                                <li><a class="dropdown-item" href="#">Blog Details</a></li>
-                                <li><a class="dropdown-item" href="#">Elements</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item nav-hover">
-                              <a class="nav-link ps-2 ps-lg-0 a-custom" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                  </div>
-                  <nav class="navbar navbar-dark bg-dark d-block d-lg-none">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler nav-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="d-flex align-items-center text-center menu-customs">
-                            <span class="d-flex">MENU</span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                                  </svg>
-                            </span>
-                        </div>
-                      </button>
-                    </div>
-                  </nav>
-
-                <!-- <div class="col-12 d-block d-lg-none position-relative custom-black">
-                    <div class="d-flex justify-content-center position-absolute rounded-2 blackmenu">
-                        <a href="#" class="d-flex align-items-center text-center menu-customs">
-                            <span class="d-flex">MENU</span>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                                  </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div> -->
-            </div>
         </div>
     </div>
 <!-- ---------------------------------------------------------------- -->
