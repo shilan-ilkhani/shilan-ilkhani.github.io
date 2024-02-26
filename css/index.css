@@ -172,7 +172,9 @@ a {
     outline: 2px solid white;
     outline-offset: 7px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -382,6 +384,7 @@ a {
 .img-custom-app {
     height: 230px;
     width: 230px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -413,6 +416,18 @@ a {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -428,15 +443,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
@@ -506,7 +544,9 @@ h2 {
     outline: 2px solid white;
     outline-offset: 10px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -717,6 +757,7 @@ h2 {
 .img-custom-app {
     height: 180px;
     width: 180px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -748,6 +789,18 @@ h2 {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -763,15 +816,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
@@ -842,7 +918,9 @@ h2 {
     outline: 2px solid white;
     outline-offset: 10px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -1054,6 +1132,7 @@ h2 {
 .img-custom-app {
     height: 160px;
     width: 160px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -1085,6 +1164,18 @@ h2 {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -1100,15 +1191,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
@@ -1177,7 +1291,9 @@ h2 {
     outline: 2px solid white;
     outline-offset: 10px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -1391,6 +1507,7 @@ h2 {
 .img-custom-app {
     height: 140px;
     width: 140px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -1422,6 +1539,18 @@ h2 {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -1436,15 +1565,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
@@ -1512,7 +1664,9 @@ h2 {
     outline: 2px solid white;
     outline-offset: 10px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -1725,6 +1879,7 @@ h2 {
 .img-custom-app {
     height: 160px;
     width: 160px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -1756,6 +1911,18 @@ h2 {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -1770,15 +1937,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
@@ -1846,7 +2036,9 @@ h2 {
     outline: 2px solid white;
     outline-offset: 10px;
     border-radius: 50%;
-    background-image: url("../images/1.jpg");
+    background-image: url("../images/me.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .custom-color-p {
@@ -2059,6 +2251,7 @@ h2 {
 .img-custom-app {
     height: 200px;
     width: 200px;
+    box-shadow: 2px 1px 10px rgba(137, 11, 12, 0.79);
 }
 
 .custom-about {
@@ -2090,6 +2283,18 @@ h2 {
 .skill-bar {
     height: 4px;
     border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 70%, #E17272 70%, #E17272);
+}
+
+.skill-bart {
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to right,#970808 , #970808 60%, #E17272 60%, #E17272);
+}
+
+.skill-barf {
+    height: 4px;
+    border-radius: 5px;
     background: linear-gradient(to right,#970808 , #970808 50%, #E17272 50%, #E17272);
 }
 
@@ -2104,15 +2309,38 @@ h2 {
 
 .custom-image {
     display: block;
-    height: 40vh;
-    background-image: url("../images/3.jpg");
+    height: 50vh;
+    background-image: url("../images/pic1o.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.custom-imaget {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic2o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imageh {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic3o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-imagef {
+    display: block;
+    height: 50vh;
+    background-image: url("../images/pic4o.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hover-costum {
     display: block;
-    height: 40vh;
+    height: 50vh;
     right: 0;
     transition: all 200ms linear 0s;
 }
