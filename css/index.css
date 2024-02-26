@@ -4,49 +4,18 @@ body {
     scroll-behavior: smooth;
 }
 
-/* .color-custom-a {
-    background-color: rgba(214, 10, 10, 0.414);
-    width: 45px;
-    height: 45px;
-} */
+/* ------------------------------------------------------------- */
 
-.span-hover {
-    background-color: rgba(214, 10, 10, 0.414);
-    width: 45px;
-    height: 45px;
-}
 
-.move-hover {
-    height: 8vh;
-
-}
-
-.lets-custom-foot {
-    font-size: calc(2vw + 12px);
-}
 
 /* ------------------------------------------------------------- */
 
-.footer-custom {
-    text-decoration: none;
-    color: white;
-    padding-bottom: 2px;
-    position: relative;
-}
 
-.footer-custom::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: white;
-    transition: width 0.25s ease-out;
-}
-.footer-custom:hover::before {
-    width: 100%;
-}
+
+
+/* ------------------------------------------------------------- */
+
+
 
 
 /* ------------------------------------------------------------- */
@@ -180,7 +149,7 @@ h2 {
 }
 
 .custom-about-h {
-    margin-top: 120px;
+    margin-top: 100px;
     left: 8%;
     font-family: sans-serif;
     font-weight: 500;
@@ -222,9 +191,19 @@ h2 {
     background-color: #fffbf9;
 }
 
+.custom-client-img {
+    
+    height: 60px;
+    width: 60px;
+}
+
+.custom-client-p {
+    
+}
+
 .client-he {
     font-weight: 400;
-    font-size: 50px;
+    font-size: calc(3vw + 20px);
 }
 
     /* ------------------------------------------------------------- */
@@ -276,25 +255,25 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
-    bottom: 40%;
+    bottom: 35%;
     left: 10%;
     font-size: calc(2vw + 9px);
 }
 
 .custom-a-po {
-    bottom: 8%;
+    bottom: 10%;
     left: 5%;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     font-size: calc(2vw + 9px);
 }
 
@@ -332,6 +311,79 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(2vw + 12px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(2vw + 12px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
+}
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
 
 }
 
@@ -373,12 +425,12 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
@@ -409,8 +461,9 @@ h2 {
 
 .img-hover:hover {
     transform: scale(1.1);
-
 }
+
+
 /* ------------------------------------------------------------- */
 
 .Back-upa {
@@ -428,6 +481,78 @@ h2 {
     width: 50px;
     height: 50px;
 }
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(1.8vw + 8px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(1.8vw + 10px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
+}
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
 
 }
 
@@ -470,12 +595,12 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
@@ -489,7 +614,7 @@ h2 {
     left: 3%;
     text-decoration: none;
     color: white;
-    font-size: calc(1.8vw + 5px);
+    font-size: calc(1.7vw + 5px);
 }
 
 .custom-a-po:hover {
@@ -505,7 +630,7 @@ h2 {
     transition: all 300ms linear 0s;
 }
 
-.img-hover:hover {
+.for-hover:hover .img-hover{
     transform: scale(1.13);
 }
 
@@ -526,6 +651,78 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(1.6vw + 8px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(1.6vw + 10px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
+}
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
 
 
 }
@@ -568,12 +765,12 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
@@ -587,7 +784,7 @@ h2 {
     left: 3%;
     text-decoration: none;
     color: white;
-    font-size: calc(1.6vw + 5px);
+    font-size: calc(1.6vw + 4px);
 }
 
 .custom-a-po:hover {
@@ -603,7 +800,7 @@ h2 {
     transition: all 300ms linear 0s;
 }
 
-.img-hover:hover {
+.for-hover:hover .img-hover{
     transform: scale(1.13);
 }
 
@@ -624,6 +821,79 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(1.3vw + 6px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(1.3vw + 8px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
+}
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
 
 }
 
@@ -665,12 +935,12 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
@@ -684,7 +954,7 @@ h2 {
     left: 3%;
     text-decoration: none;
     color: white;
-    font-size: calc(1.5vw + 5px);
+    font-size: calc(1.5vw + 4px);
 }
 
 .custom-a-po:hover {
@@ -700,8 +970,57 @@ h2 {
     transition: all 300ms linear 0s;
 }
 
-.img-hover:hover {
+.for-hover:hover .img-hover{
     transform: scale(1.13);
+}
+
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(1.1vw + 3px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(1.2vw + 6px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
 }
 
 /* ------------------------------------------------------------- */
@@ -721,6 +1040,30 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
 
 }
 
@@ -762,12 +1105,12 @@ h2 {
 }
 
 .custom-badge {
-    background-color: rgb(180, 4, 54);
+    background-color: #9E0B0B;
     transition: all 300ms linear 0s;
 }
 
 .custom-badge:hover {
-    background-color: rgb(39, 15, 15);
+    background-color: #580606;
 }
 
 .custom-div-po {
@@ -797,7 +1140,7 @@ h2 {
     transition: all 300ms linear 0s;
 }
 
-.img-hover:hover {
+.for-hover:hover .img-hover{
     transform: scale(1.13);
 }
 
@@ -818,6 +1161,79 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+/* ------------------------------------------------------------- */
+
+.footer-hfont {
+    font-size: calc(2vw + 17px);
+    font-weight: 600;
+    color: #F55959;
+}
+
+.footer-pfont {
+    font-size: calc(1.1vw + 3px);
+    font-weight: 400;
+    color: whitesmoke;
+} 
+
+.move-hover {
+    height: 8vh;
+}
+
+#move-hover-c {
+    background-color: #9E0B0B;
+}
+
+.color-custom-a {
+    line-height: 37px;
+}
+
+.hover-height {
+    background-color: rgba(149, 12, 12, 0.4);
+    width: 40px;
+    height: 40px;
+}
+
+.span-hover {
+    color: #E17272;
+}
+
+.lets-custom-foot {
+    font-size: calc(1.2vw + 6px);
+}
+
+.letshovercustom {
+    color: whitesmoke;
+    transition: color 300ms linear 0s;
+}
+
+.letshovercustom:hover {
+    color: #F55959;
+}
+
+.footer-custom {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.footer-custom::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+}
+.footer-custom:hover::before {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------- */
+
 
 }
 
